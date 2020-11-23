@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbsoluteDiagonalTests", "AbsoluteDiagonalTests\AbsoluteDiagonalTests.csproj", "{D4C197B4-8D68-4D6C-8FA5-179369AA5646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithm", "Algorithm", "{23A17A42-19F3-4479-B921-D79064EDDBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refactoring", "Refactoring", "{73B39EB3-6023-458D-BC82-FE12E0F1B443}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageRiskSystem", "MortgageRiskSystem\MortgageRiskSystem.csproj", "{216D8791-06D0-4195-9699-320280AB830C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbsoulteDiagonal", "AbsoulteDiagonal\AbsoulteDiagonal.csproj", "{36213FDA-749B-4E06-BB37-F1F2F6B00D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageRiskSystemTests", "MortgageRiskSystemTests\MortgageRiskSystemTests.csproj", "{C9B3358B-9A83-44BF-90CE-2AF427F9B054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4C197B4-8D68-4D6C-8FA5-179369AA5646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C197B4-8D68-4D6C-8FA5-179369AA5646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C197B4-8D68-4D6C-8FA5-179369AA5646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C197B4-8D68-4D6C-8FA5-179369AA5646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216D8791-06D0-4195-9699-320280AB830C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216D8791-06D0-4195-9699-320280AB830C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216D8791-06D0-4195-9699-320280AB830C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216D8791-06D0-4195-9699-320280AB830C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36213FDA-749B-4E06-BB37-F1F2F6B00D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36213FDA-749B-4E06-BB37-F1F2F6B00D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36213FDA-749B-4E06-BB37-F1F2F6B00D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36213FDA-749B-4E06-BB37-F1F2F6B00D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B3358B-9A83-44BF-90CE-2AF427F9B054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B3358B-9A83-44BF-90CE-2AF427F9B054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B3358B-9A83-44BF-90CE-2AF427F9B054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B3358B-9A83-44BF-90CE-2AF427F9B054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4C197B4-8D68-4D6C-8FA5-179369AA5646} = {23A17A42-19F3-4479-B921-D79064EDDBB9}
+		{216D8791-06D0-4195-9699-320280AB830C} = {73B39EB3-6023-458D-BC82-FE12E0F1B443}
+		{36213FDA-749B-4E06-BB37-F1F2F6B00D1F} = {23A17A42-19F3-4479-B921-D79064EDDBB9}
+		{C9B3358B-9A83-44BF-90CE-2AF427F9B054} = {73B39EB3-6023-458D-BC82-FE12E0F1B443}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA03D545-098D-4CD5-AD55-3122960FE7F3}
+	EndGlobalSection
+EndGlobal

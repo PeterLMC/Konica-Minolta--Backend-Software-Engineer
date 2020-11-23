@@ -1,0 +1,2 @@
+1,1,50.20,konica@konicaminolta.es,0,280000.00,0,94590756J,652215505,123,Madrid,street micenas,28232,Madrid
+1,1,50.20,konica@konicaminolta.es,0,280000.00,0,94590756J,652215505,123,Madrid,street micenas,28232,Madrid
