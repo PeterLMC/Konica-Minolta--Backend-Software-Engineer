@@ -1,7 +1,7 @@
 # Konica-Minolta-Software-Engineer
 
 Welcome to the Konica Minolta Software Engineer Challenge.
-Please clone the repo and complete the callenge.
+Please clone the repo and complete the challenge.
 
 Instructions are in the repo in a pdf file.
 
