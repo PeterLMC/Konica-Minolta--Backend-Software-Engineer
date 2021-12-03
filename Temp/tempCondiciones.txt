@@ -1,0 +1,15 @@
+Condiciones que hacen inválida una petición.
+
+ClientId Index 1
+Debts 2
+GrossMensualSalary 4
+HomeAppraisal 5
+Incomes 6
+
+- ClientId==123 || ClientId==456 || ClientId==984
+
+- Debts > Incomes
+
+- Request.HomeAppraisal / (30 * 12) > (request.GrossMensualSalary * 0.4)
+
+- Incomes == 0 y GrossMensualSalary == 0 
