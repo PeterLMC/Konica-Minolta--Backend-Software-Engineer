@@ -1,0 +1,102 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestFiles\GetInvalidRequests_allRequestAreValid_ReturnZero.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MortgageRiskSystem\MortgageRiskSystem.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TestFiles\Mortages_with_data_are_ok_not_returned.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Mortage_with_invalid_characters_in_the_email_are_removed.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Mortage_with_invalid_characters_in_the_zipCode_are_removed.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Repeat_mortgages_with_same_id_are_eliminated.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\The_abbreviation_of_City_are_removed.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\The_abbreviation_of_street_are_removed.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\When_a_mortgage_is_readed_from_a_file_line_all_state_is_properly_assigned.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\When_the_client_is_blacklisted_the_mortgage_is_invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidFiveMortageMixWithMortageIdDuplicated_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidFiveMortageMix_Expected_5_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithBlackList_ID123_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithBlackList_ID456_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithBlackList_ID984_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithDebtsGreaterThanIncomesFloatTest_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithDebtsGreaterThanIncomes_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithExpensiveMortgageFloatTest_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithExpensiveMortgage_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\InvalidOneMortageWithNoIncomesAndGrossMensualSalary_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\MixThreeValidMortageAndThreeInvalidMortageMixed_Expected_3_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Mortage_cannot_have_more_debts_than_income.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Mortage_is_invalid_if_Home_Appraisal_is_more_than_gross_mensual_salary.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Mortage_is_invalid_with_zero_income_and_gross_mensual_salary.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\ValidOneMortageAndOneInvalid_Expected_1_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\ValidOneMortage_Expected_0_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\ValidThreeMortage_Expected_0_Invalid.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
